@@ -1,0 +1,7 @@
+from sys import argv
+script, a, b = argv
+
+if a > b:
+  print "A mayor a B"
+  else
+  print "A menor a B"
