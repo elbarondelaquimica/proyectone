@@ -17,11 +17,11 @@ celdaBfinal = indicefinal.loc[paisB, "gdp"]
 
 if celdaAinicio > celdaBinicio:
     if celdaAfinal > celdaBfinal:
-        print 'Nada ha cambiado.'
+        print '%s sigue siendo mas rico que %s.' % (paisA, paisB)
     else:
         print '%s supero a %s.' % (paisB, paisA)
 elif celdaBinicio > celdaAinicio:
     if celdaBfinal > celdaAfinal:
-        print "Nada ha cambiado."
+        print '%s sigue siendo mas rico que %s.' % (paisB, paisA)
     else:
-        print "%s supero a %s" (paisA, paisB)
+        print '%s supero a %s' % (paisA, paisB)
